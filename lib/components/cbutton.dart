@@ -4,6 +4,8 @@ class CustomButton extends StatelessWidget
 {
   @override
   Widget build(BuildContext context) {
-    return RaisedButton(onPressed:(){},child:Text("哈哈"));
+    return RaisedButton(onPressed:(){
+      print("哈哈");
+    },child:Text("哈哈"));
   }
 }

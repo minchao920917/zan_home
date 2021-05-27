@@ -65,18 +65,18 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: Icon(Icons.home),
             label: "首页"
           ),
-          // BottomNavigationBarItem(
-          //   icon: Icon(Icons.gps_fixed),
-          //   label: "沸点"
-          // ),
-          // BottomNavigationBarItem(
-          //   icon: Icon(Icons.search),
-          //   label: "发现"
-          // ),
-          // BottomNavigationBarItem(
-          //   icon: Icon(Icons.book),
-          //   label: "小册"
-          // ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.gps_fixed),
+            label: "沸点"
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.search),
+            label: "发现"
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.book),
+            label: "小册"
+          ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
             label: "我"
