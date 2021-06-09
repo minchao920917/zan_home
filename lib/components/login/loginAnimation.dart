@@ -85,7 +85,7 @@ class StaggerAnimation extends StatelessWidget {
                     ),
                     child: buttonSqueezeanimation.value > 75.0
                         ? new Text(
-                            "Sign In",
+                            "登录中...",
                             style: new TextStyle(
                               color: Colors.white,
                               fontSize: 20.0,
@@ -118,7 +118,9 @@ class StaggerAnimation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     buttonController.addListener(() {
+  
       if (buttonController.isCompleted) {
+            print("测试");
         Navigator.pushNamed(context, "/home");
       }
     });
