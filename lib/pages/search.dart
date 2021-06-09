@@ -56,7 +56,7 @@ class _PageSearchState extends State<PageSearch> with SingleTickerProviderStateM
   @override
   void initState() { 
     super.initState();
-    _tabController = TabController(vsync: this,length: 10);
+    _tabController = TabController(vsync: this,length: 7);
     
     // getListData();
   }
@@ -137,9 +137,6 @@ class _PageSearchState extends State<PageSearch> with SingleTickerProviderStateM
             Tab(text: "查物流"),
             Tab(text: "查图书"),
             Tab(text: "查日历"),
-            Tab(text: "查地图"),
-            Tab(text: "查企业"),
-            Tab(text: "查股票"),
           ]
         ),
       ),
@@ -147,35 +144,26 @@ class _PageSearchState extends State<PageSearch> with SingleTickerProviderStateM
         controller: _tabController,
         children: [
           Center(
-              child: Text("热榜11")
+              child: Text("天气")
           ),
           Center(
-              child: Text("热榜")
+              child: Text("黄历")
           ),
           Center(
-              child: Text("前端")
+              child: Text("数据")
           ),
           Center(
-              child: Text("后端")
+              child: Text("菜谱")
           ),
           Center(
-              child: Text("Android")
+              child: Text("物流")
           ),
           Center(
-              child: Text("iOS")
+              child: Text("图书")
           ),
           Center(
-              child: Text("人工智能")
+              child: Text("日历")
           ),
-          Center(
-              child: Text("开发工具")
-          ),
-          Center(
-              child: Text("代码人生")
-          ),
-          Center(
-              child: Text("阅读")
-          )
         ],
       ),
     ));
