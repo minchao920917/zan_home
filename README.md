@@ -2,6 +2,7 @@
 
 A new Flutter project.
 
+主题色 #4696ec
 ## Getting Started
 
 This project is a starting point for a Flutter application.
