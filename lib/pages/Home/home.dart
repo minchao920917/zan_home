@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:zan_home/pages/index.dart';
-import 'package:zan_home/pages/search.dart';
+import 'package:zan_home/pages/Search/search.dart';
 import 'package:zan_home/pages/me.dart';
 
 class MyHomePage extends StatefulWidget {

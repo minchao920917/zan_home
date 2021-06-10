@@ -9,7 +9,7 @@ class SignUp extends StatelessWidget {
         top: 160.0,
       ),
       child: new Text(
-        "还没有账号，请联系 minchao.me",
+        "还没有账号？请联系 minchao.me",
         textAlign: TextAlign.center,
         overflow: TextOverflow.ellipsis,
         softWrap: true,
